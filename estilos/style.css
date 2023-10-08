@@ -62,6 +62,7 @@ div#form > h1{
 
 div#form > p{
     font-size: 0.8em;
+    margin: 10px 0px;
 }
 
 form > input[type=submit]{
@@ -96,6 +97,9 @@ form >a.botao:hover{
     background-color: #6cd3cf;
 }
 
+form > a > span{
+   font-size: 0.5em;
+}
 div.campo{
     background-color: #5f2c82;
     display: block;
@@ -103,6 +107,26 @@ div.campo{
     height: 40px;
     border-radius: 5px;
     margin: 5px 0px;
+    border: 2px solid #5f2c82;
+}
+
+div.campo span{
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo input {
+    background-color: white;
+    font-size: 1em;
+    width: calc(100% - 46px);
+    transform: translateY(-12px);
+    height: 100%;
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
 }
 
 div.campo label{
